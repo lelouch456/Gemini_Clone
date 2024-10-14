@@ -1,7 +1,7 @@
 {
   "homepage": "https://lelouch456.github.io/Gemini_Clone",
   "name": "gemini-clone",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
