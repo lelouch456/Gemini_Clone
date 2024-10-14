@@ -5,7 +5,7 @@ import './index.css'
 import ContextProvider from './context/context.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="Gemini_Clone">
   <ContextProvider>
     <App />
   </ContextProvider>
