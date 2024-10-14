@@ -6,7 +6,7 @@ import ContextProvider from './context/context.jsx'
 import BrowserRouter from 'react-router-dom/BrowserRouter'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename="/Gemini_Clone/">
   <ContextProvider>
     <App />
   </ContextProvider>
