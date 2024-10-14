@@ -5,7 +5,10 @@ import './index.css'
 import ContextProvider from './context/context.jsx'
 
 createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
   <ContextProvider>
     <App />
-  </ContextProvider>,
+  </ContextProvider>
+  </BrowserRouter>
+  ,
 )
