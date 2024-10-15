@@ -3,13 +3,16 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import ContextProvider from './context/context.jsx'
-import BrowserRouter from 'react-router-dom/BrowserRouter'
+import {HashRouter} from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/Gemini_Clone/">
-  <ContextProvider>
-    <App />
+  <HashRouter basename='/'>
+    <StrictMode>
+    <ContextProvider>
+      <App />
   </ContextProvider>
-  </BrowserRouter>
+    </StrictMode>
+  
+  </HashRouter>
   ,
 )
